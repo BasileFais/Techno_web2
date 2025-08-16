@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Catalogue Appareils Photos</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="dist/controller.js" type="module" defer></script>
+</head>
+<body>
+<header>
+  <div class="top-bar">
+    <div class="logo">LuxeCam</div>
+  </div>
+</header>
+
+<main>
+  <h1>Découvrez l'excellence en photographie</h1>
+</main>
+
+  <div id="catalogue"></div>
+
+  <div id="ajout">
+    <h2>Ajouter un appareil</h2>
+    <form id="form-ajout">
+      <select id="marque" required>
+        <option value="">-- Marque --</option>
+        <option value="Canon">Canon</option>
+        <option value="Nikon">Nikon</option>
+        <option value="Sony">Sony</option>
+        <option value="Panasonic">Panasonic</option>
+        <option value="Fujifilm">Fujifilm</option>
+      </select>
+      <input type="text" id="nom" placeholder="Nom du modèle" required />
+      <input type="number" id="prix" placeholder="Prix (€)" required />
+      <input type="text" id="resolution" placeholder="Résolution" required />
+      <input type="text" id="iso" placeholder="ISO max" required />
+      <input type="text" id="poids" placeholder="Poids" required />
+      <button type="submit">➕ Ajouter</button>
+    </form>
+  </div>
+
+  <div id="modification" style="display:none;">
+    <h2>Modifier un appareil</h2>
+    <form id="form-modif">
+      <input type="hidden" id="modif-id" />
+      <input type="text" id="modif-nom" placeholder="Nom du modèle" required />
+      <input type="number" id="modif-prix" placeholder="Prix (€)" required />
+      <input type="text" id="modif-resolution" placeholder="Résolution" required />
+      <input type="text" id="modif-iso" placeholder="ISO max" required />
+      <input type="text" id="modif-poids" placeholder="Poids" required />
+      <button type="submit">💾 Enregistrer</button>
+      <button type="button" id="modif-annuler">Annuler</button>
+    </form>
+  </div>
+</body>
+</html>

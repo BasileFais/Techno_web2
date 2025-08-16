@@ -1,0 +1,17 @@
+{
+  "name": "site-tw2",
+  "version": "1.0.0",
+  "description": "Projet TechWeb2 - Catalogue appareils photo",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx serve ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.12"
+  }
+}

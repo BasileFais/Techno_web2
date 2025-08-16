@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nom": "Canon EOS R5",
+    "prix": 3500,
+    "caracteristiques": {
+      "Résolution": "45 MP",
+      "ISO max": "51200",
+      "Poids": "738 g"
+    }
+  },
+  {
+    "id": 2,
+    "nom": "Nikon Z6 II",
+    "prix": 2200,
+    "caracteristiques": {
+      "Résolution": "24 MP",
+      "ISO max": "204800",
+      "Poids": "705 g"
+    }
+  }
+]
