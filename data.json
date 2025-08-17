@@ -5,7 +5,7 @@
     "prix": 3500,
     "caracteristiques": {
       "Résolution": "45 MP",
-      "ISO max": "51200",
+      "ISO max": "ISO 51200",
       "Poids": "738 g"
     }
   },
@@ -15,8 +15,108 @@
     "prix": 2200,
     "caracteristiques": {
       "Résolution": "24 MP",
-      "ISO max": "204800",
+      "ISO max": "ISO 204800",
       "Poids": "705 g"
+    }
+  },
+  {
+    "id": 3,
+    "nom": "Sony A7 IV",
+    "prix": 2499,
+    "caracteristiques": {
+      "Résolution": "33 MP",
+      "ISO max": "ISO 204800",
+      "Poids": "659 g"
+    }
+  },
+  {
+    "id": 4,
+    "nom": "Fujifilm X-T5",
+    "prix": 1899,
+    "caracteristiques": {
+      "Résolution": "40 MP",
+      "ISO max": "ISO 51200",
+      "Poids": "557 g"
+    }
+  },
+  {
+    "id": 5,
+    "nom": "Panasonic Lumix S5 II",
+    "prix": 1999,
+    "caracteristiques": {
+      "Résolution": "24 MP",
+      "ISO max": "ISO 51200",
+      "Poids": "740 g"
+    }
+  },
+  {
+    "id": 6,
+    "nom": "Canon EOS R6 Mark II",
+    "prix": 2799,
+    "caracteristiques": {
+      "Résolution": "24 MP",
+      "ISO max": "ISO 102400",
+      "Poids": "588 g"
+    }
+  },
+  {
+    "id": 7,
+    "nom": "Nikon Z8",
+    "prix": 4299,
+    "caracteristiques": {
+      "Résolution": "45 MP",
+      "ISO max": "ISO 51200",
+      "Poids": "910 g"
+    }
+  },
+  {
+    "id": 8,
+    "nom": "Sony A7C II",
+    "prix": 2199,
+    "caracteristiques": {
+      "Résolution": "33 MP",
+      "ISO max": "ISO 51200",
+      "Poids": "514 g"
+    }
+  },
+  {
+    "id": 9,
+    "nom": "OM System OM-1",
+    "prix": 2199,
+    "caracteristiques": {
+      "Résolution": "20 MP",
+      "ISO max": "ISO 102400",
+      "Poids": "599 g"
+    }
+  },
+  {
+    "id": 10,
+    "nom": "Leica Q3",
+    "prix": 5990,
+    "caracteristiques": {
+      "Résolution": "60 MP",
+      "ISO max": "ISO 100000",
+      "Poids": "743 g"
+    }
+  },
+  {
+    "id": 11,
+    "nom": "Fujifilm X-S20",
+    "prix": 1399,
+    "caracteristiques": {
+      "Résolution": "26 MP",
+      "ISO max": "ISO 51200",
+      "Poids": "491 g"
+    }
+  },
+  {
+    "id": 12,
+    "nom": "Panasonic Lumix G9 II",
+    "prix": 1899,
+    "caracteristiques": {
+      "Résolution": "25 MP",
+      "ISO max": "ISO 25600",
+      "Poids": "658 g"
     }
   }
 ]
